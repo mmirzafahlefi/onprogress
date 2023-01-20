@@ -1,0 +1,33 @@
+@import "react-loading-skeleton/dist/skeleton.css";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+.dark {
+  background-color: #333;
+  color: #fff;
+}
+.light {
+  background-color: #fff;
+  color: #333;
+}
+body.dark .text {
+  color: #333;
+}
+button {
+  padding: 7px 15px;
+  border-radius: 20px;
+  font-weight: 700;
+  transition: 0.4s;
+}
+button:hover {
+  background-color: salmon;
+  color: #fff;
+}
+.btn {
+  border-radius: 20px;
+  width: 20%;
+}
